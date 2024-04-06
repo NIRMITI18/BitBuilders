@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If While Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>The concept of if and elif statements has been used here:</p>
+    <ul>
+        <li>If the user hits the red box, "Game over! You encountered an obstacle!" is printed.</li>
+        <li>Elif the yellow box is reached, "Treasure" is printed.</li>
+    </ul>
+    <div id="maze">
+        <div id="player"></div>
+        <div id="treasure"></div>
+        <div class="obstacle"></div>
+        <!-- More obstacles can be added here -->
+    </div>
+    <div id="controls">
+        <button onclick="move('up')">Up</button>
+        <button onclick="move('down')">Down</button>
+        <button onclick="move('left')">Left</button>
+        <button onclick="move('right')">Right</button>
+    </div>
+    <div id="message"></div>
+    <script src="script.js"></script>
+</body>
+</html>
